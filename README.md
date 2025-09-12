@@ -34,23 +34,18 @@
 
 **Bioconductor Packages** need to be installed first,
 ```r
-if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-
-BiocManager::install("Biostrings")
-BiocManager::install("pwalign")
-BiocManager::install("BiocGenerics")
+if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
+BiocManager::install(c("Biostrings","pwalign","BiocGenerics"))
 ```
-**then install from CRAN**
+**then install from CRAN** // CRAN status: archived - the win/macOS dependencies need to be updated
 ```r
 install.packages("kmeRs")
 ```
-**or development version from GitHub**
+**or install from GitHub**
 ```r
 install.packages("devtools")
 devtools::install_github("urniaz/kmeRs/kmeRs/")
 ```
-
 
 ## 2. Documentation
 
