@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/%20Bioconductor%20BiocCheck-true-green.svg)  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/58fa4c912dfd42d3b8838c65c25deb90)](https://app.codacy.com/gh/urniaz/kmeRs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![Circle CI Badge](https://img.shields.io/badge/build-passing-brightgreen?style=flat&label=circleci)](https://app.circleci.com/pipelines/github/urniaz?circle-token=79db963de7c13c1570f70cb8ac1c77a5) ![CRAN/METACRAN License](https://img.shields.io/cran/l/kmeRs)  ![CRAN/METACRAN Version](https://img.shields.io/cran/v/kmeRs) ![CRAN/METACRAN Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/kmeRs)
 
 # kmeRs: K-mers Similarity Score Matrix and HeatMap
-
+**Rafal Urniaz, PhD** [![ORCID](https://img.shields.io/badge/ORCID-0000--0003--0192--2165-A6CE39?logo=orcid&logoColor=FFFFFF)](https://orcid.org/0000-0003-0192-2165) 
 <table width="100%" border="0">
   <tbody><tr>
     <td width="80%">Similarity Score Matrix and HeatMap for nucleic and amino acid k-mers. Similarity score is evaluated by Point Accepted Mutation (PAM) and BLOcks SUbstitution Matrix (BLOSUM). The 30, 40, 70, 120, 250 and 62, 45, 50, 62, 80, 100 matrix versions are available for PAM and BLOSUM, respectively. Alignment is evaluated by local <sup><a href="#6-references"> 1</a></sup> and global <sup><a href="#6-references"> 2</a></sup> alignment. </td>
